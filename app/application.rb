@@ -1,7 +1,6 @@
 class Application
 
     @@items = [Item.new("Bananna", 0.5), Item.new("Apple", 1)]
-    #@@songs = [Song.new("Sorry", "Justin Bieber"), Song.new("Hello", "Adele")]
     
     def call(env)
         resp = Rack::Response.new
